@@ -61,7 +61,7 @@ func main() {
 	}
 
 	// Read the JSON file
-	data, err := os.ReadFile("tes.json")
+	data, err := os.ReadFile("coordinates.json")
 	if err != nil {
 		log.Fatalf("Failed to read file: %v", err)
 	}
